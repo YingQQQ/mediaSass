@@ -1,0 +1,12 @@
+@import "media";
+
+body{
+	background: red;
+
+  @include media(">phone", "<=tablet") {
+    background: green;
+	}
+  @include media("<phone") {
+    background: yellow;
+	}
+}

@@ -1,0 +1,10 @@
+body {
+  background: red; }
+  @media (min-width: 321px) and (max-width: 768px) {
+    body {
+      background: green; } }
+  @media (max-width: 319px) {
+    body {
+      background: yellow; } }
+
+/*# sourceMappingURL=main.css.map */
